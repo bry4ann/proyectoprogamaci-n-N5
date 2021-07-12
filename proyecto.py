@@ -3378,12 +3378,12 @@ elif opc==4:  #graficos por regiones ingresando el nombre o código de la regió
             plt.ylabel("tasa de incidencia")
             plt.show()
 
-if opc==5: #Gráficos de: uno con el de la regió con mayor densidad y el otro con el de menor densidad, ambos respectivos a la Tasa de Incidencia.
+if opc==5: #Gráficos de: uno con el de la región con mayor densidad y el otro con el de menor densidad, ambos respectivos a la Tasa de Incidencia.
     print("===========================================================================")
     print("OPCIONES:")
     print("1)Ingrese '1' para desplegar el gráfico de la región con MAYOR densidad en la Tasa de Incidencia de las últimas 7 fechas" )   
     print("2)Ingrese '2' para desplegar el gráfico de la región con MENOR densidad en la Tasa de Incidencia de de las últimas 7 fechas")
-     x=int(input("INGRESO: "))
+    x=int(input("INGRESO: "))
 
     if x ==1:
             plt.plot([0,18015.6])
@@ -3395,3 +3395,14 @@ if opc==5: #Gráficos de: uno con el de la regió con mayor densidad y el otro c
             plt.xlabel("Región de Magallanes y de la Antártica Chilena")
             plt.ylabel("Menor tasa de Incidencia")
             plt.show()
+
+elif opc==6: #Grafico de la métrica de comparación entre todas las regiones.
+
+        regiones=["XV","I","II","III","IV","V","XIII","VI","VII","XVI","VIII","IX","XIV","X","XI","XII"]
+        media=[11117.2,12336.8,8924.9,8104.5,6215.4,8018.6,9545.6,7921.0,9161.4,8426.1,10413.5,10084.6,12239.8,10920.3,8303.1,17975.0 ]
+        plt.title("Media Aritmética de las Regiones por Incidencia")
+        plt.bar(regiones,height=media,width=0.5)
+        plt.show()
+
+elif opc==7: #Opción para salir del menú.
+    print("Usted ha salido del menú.")

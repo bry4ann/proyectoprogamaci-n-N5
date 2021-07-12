@@ -3383,4 +3383,15 @@ if opc==5: #Gráficos de: uno con el de la regió con mayor densidad y el otro c
     print("OPCIONES:")
     print("1)Ingrese '1' para desplegar el gráfico de la región con MAYOR densidad en la Tasa de Incidencia de las últimas 7 fechas" )   
     print("2)Ingrese '2' para desplegar el gráfico de la región con MENOR densidad en la Tasa de Incidencia de de las últimas 7 fechas")
-    print("===========================================================================")
+     x=int(input("INGRESO: "))
+
+    if x ==1:
+            plt.plot([0,18015.6])
+            plt.xlabel("Región de Coquimbo")
+            plt.ylabel("Mayor Tasa de Incidencia")
+            plt.show()
+    elif x==2:
+            plt.plot([])
+            plt.xlabel("Región de Magallanes y de la Antártica Chilena")
+            plt.ylabel("Menor tasa de Incidencia")
+            plt.show()

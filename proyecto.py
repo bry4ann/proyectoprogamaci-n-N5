@@ -3213,3 +3213,88 @@ if opc==3:   #graficos por nombres y códigos de comunas:
         plt.xlabel("últimas 7 fechas ")
         plt.ylabel("tasa de incidencia")
         plt.show()
+ #graficos por regiones:
+
+elif opc==4:
+    region=str(input("Ingrese el código o nombre de la región:\nINGRESO: "))
+    
+    if region=="15" :
+            plt.plot([10728.3,	10886.9,	10999.6,	11151.5,	11248.7,	11357.3,	11448.2])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="01":
+            plt.plot([12092.3,12207.5,12277.3,12356.7,12318.3,12477.4,12528.1])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="02":
+            plt.plot([8699.5,8794.3,8865.9,8932.2,9000.9,9065.5,9118.5])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="03":
+            plt.plot([7709.7,7887.9,7998.2,8131.3,8210.1,8355.0,8439.9])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="04":
+            plt.plot([5879.8,6032.4,6147.9,6247.4,6329.5,6404.6,6466.7])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show() 
+    elif region=="05":
+            plt.plot([7661.4,7815.9,7929.7,8047.6,8139.8,8230.8,8305.5])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()       
+    elif region=="13":
+            plt.plot([9202.5,9365.4,9476.5,9583.3,9664.1,9736.0,9792.0])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="06":
+            plt.plot([7628.0,7769.9,7869.0,7953.8,8020.7,8078.3,8127.7])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="07":
+            plt.plot([8828.6,8974.5,9088.2,9180.9,9278.2,9357.7,9422.1])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="16":
+            plt.plot([8173.0,8283.2,8366.7,8448.2,8513.5,8573.9,8624.2])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()   
+    elif region=="08":
+            plt.plot([10111.3,10241.2,10334.4,10437.1,10516,10596.8,10657.8])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="09":
+            plt.plot([9723.4,9864.3,9986.2,10104.3,10215.4,10310.2,10388.7])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="14":
+            plt.plot([11666.6,11910.0,12066.7,12258.7,12428.9,12604.9,12743.4])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="10":
+            plt.plot([10642.1,10764.9,10845.6,10925.4,11016.0,11092.8,11155.7])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="11":
+            plt.plot([7776.5,8041.2,8223.9,8358.1,8477.4,8579.9,8664.7])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()
+    elif region=="12":
+            plt.plot([17747.6,17860.9,17942.2,18005.0,18042.0,18094.1,18133.3])
+            plt.xlabel("últimas 7 fechas ")
+            plt.ylabel("tasa de incidencia")
+            plt.show()        

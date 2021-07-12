@@ -3377,3 +3377,10 @@ elif opc==4:  #graficos por regiones ingresando el nombre o código de la regió
             plt.xlabel("últimas 7 fechas ")
             plt.ylabel("tasa de incidencia")
             plt.show()
+
+if opc==5: #Gráficos de: uno con el de la regió con mayor densidad y el otro con el de menor densidad, ambos respectivos a la Tasa de Incidencia.
+    print("===========================================================================")
+    print("OPCIONES:")
+    print("1)Ingrese '1' para desplegar el gráfico de la región con MAYOR densidad en la Tasa de Incidencia de las últimas 7 fechas" )   
+    print("2)Ingrese '2' para desplegar el gráfico de la región con MENOR densidad en la Tasa de Incidencia de de las últimas 7 fechas")
+    print("===========================================================================")
